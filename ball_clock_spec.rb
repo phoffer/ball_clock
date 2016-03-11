@@ -29,7 +29,7 @@ RSpec.describe Clock do
     it 'should have 5 balls for hour indicator' do
       expect(clock.hour_queue.size).to eq(5)
     end
-    it 'should have 17 balls for hour indicator' do
+    it 'should have 17 balls in available queue' do
       expect(clock.queue.size).to eq(17)
     end
   end
